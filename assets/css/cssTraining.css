@@ -27,3 +27,18 @@
     text-align: center;
     background: #999;
   }
+
+  div.firstDiv {
+    height: 200px;
+    background-color: chartreuse;
+  }
+
+  .div.secondDiv {
+    height: 200px;
+    background-color: pink;
+  }
+
+  .div.thirdDiv {
+    height: 200px;
+    background-color: blue;
+  }
