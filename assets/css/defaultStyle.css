@@ -6,5 +6,29 @@
 
 body {
     background-color: white;
-    background-image: url("https://thebusybaker.ca/wp-content/uploads/2019/09/best-ever-from-scratch-chocolate-cupcakes-fb-ig-3.jpg")
+    background-image: url("https://thebusybaker.ca/wp-content/uploads/2019/09/best-ever-from-scratch-chocolate-cupcakes-fb-ig-3.jpg");
+    background-size: cover;
 }
+
+#firstbox {
+    width: 200px;
+    height: 200px;
+    background: #01ECFF;
+    border: dashed;
+    padding: 5px;
+}
+
+#secondbox {
+    width: 300px;
+    height: 200px;
+    background: pink;
+    border: dashed;
+    padding: 5px;
+}
+
+.hover-state:hover {
+    color: white;
+    background-color: blue;
+    border: 2px solid aqua;
+}
+    
