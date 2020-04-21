@@ -54,12 +54,41 @@ footer {
     background-color: #34af95 ! important;
 }
 
+.customNavBg span.navbar-toggler-item > i.fas.fa-bars {
+    color: white;
+    font-size: 30px;
+}
+
+.customNavBg > a.navbar-brand:hover {
+    color: white;
+}
+
+.customNavBg > li {
+    margin-right: 20px;
+}
+
+.customNavBg li.nav-item.active > a{
+    color: orange;
+    font-weight: bold;
+}
+
 .customNavBg a {
     color: white;
 }
 
+.customNavBg li > a:hover {
+    color: orange;
+    text-decoration: underline;
+    font-weight: bold;
+    transform: : scale(1.2);
+}
+
 .customNavBg a:hover {
     color: red;
+}
+.customNavBg a.dropdown-item {
+    color: orange;
+    text-decoration: ;
 }
 
 .sectionTitle {

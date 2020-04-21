@@ -20,12 +20,12 @@ a.tesla-link {
     margin: 50px;
   }
 
-a.testla-link:visited {
+a.tesla-link:visited {
     color:red;
     text-decoration: underline;
   }
 
-a.testla-link:hover {
+a.tesla-link:hover {
     color: white;
     background-color: green;
   }
@@ -47,3 +47,21 @@ display: flex;
 .projectCardBtn {
   background-color: violet;
 }
+
+.bioTxt P:first-child {
+  font-width: bold;
+  color: orange;
+  font-size: 25px;
+}
+
+.bioTxt p:nth-child(2) {
+  letter-spacing: 5px;
+  font-weight: lighter;
+  font-size: 40px;
+}
+
+.bioTxtp.descriptionText {
+  letter-spacing: 2px;
+}
+
+

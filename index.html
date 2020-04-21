@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Future Portfolio Page</title>
     <link rel="stylesheet" href="assets/css/homePage" type="text/css" />
-    
     <!-- Bootstrp Stylesheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    
+    <!-- FontAwesome -->
+    <script src=“https://kit.fontawesome.com/938a18ead6.js” crossorigin=“anonymous”></script>
 </head>
 
 <body>
@@ -18,7 +18,9 @@
         <a class="navbar-brand" href="#">VCD 5D</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09"
             aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon">
+                <i class="fas fa-bars"></i>
+            </span>
         </button>
         <div class="collapse navbar-collapse" id="navbarsExample09">
             <ul class="navbar-nav mr-auto">
@@ -48,12 +50,16 @@
     </nav>
 
         <!-- decription section -->
-    <div class="row">   
+    <div class="row align-items-center customDescriptionSection">   
         <div class="col-12 col-4 avatarCol">
-            <a href="contact.html"></a><img src=“assets/images/face.jpg” alt="avatar" width=“200” height=“auto”>
+            <a href="contact.html"></a>
+            <img src=“assets/images/face.jpg” alt="avatar" width=“200” height=“auto”>
         </div>
-        <div class="col-12 col-8">
-            <p class="pStyle">Hi my name is Blake. I like dogs.</p>
+        <div class="col-12 col-4 bioText">
+            <p>I am a UX/UI Designer & Developer</p>
+            <p>
+                Hi my name is Blake. I like dogs. <span>I love dogs!</span> I love dogs!
+            </p>
         </div>
     </div>
 
@@ -86,12 +92,14 @@
                 <img src="assets/images/SCP-999_The_Tickle_Monster.png" class="card-img-top" alt="...">
                 <div class="card-body">
                 <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn projectCardBtn">Go somewhere</a>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of 
+                    the 
+                    card's content.</p>
+                <a href="#" class="btn projectCardBtn" data-toggle="modal" data-target="#fruitPRoject">View Project</a>
                 </div>
             </div>
-        </div> 
-
+        </div>
+        <!-- modal -->
         <div class="col-sm-6 col-md-4 col-md-3">
             <div class="card" style="width: 18rem;">
                 <img src="assets/images/face.jpg.png" class="card-img-top" alt="...">
