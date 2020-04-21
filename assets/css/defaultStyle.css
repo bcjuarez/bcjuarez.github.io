@@ -31,4 +31,38 @@ body {
     background-color: blue;
     border: 2px solid aqua;
 }
-    
+
+footer {
+    padding: 40px;
+    background: 34af95;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 100px;
+    text-align: center;
+    color: white;
+}
+
+.height200 {
+    height: 200px;
+    background-color: lightgray;
+    margin: 20px 0;
+}
+
+.customNavBg {
+    background-color: #34af95 ! important;
+}
+
+.customNavBg a {
+    color: white;
+}
+
+.customNavBg a:hover {
+    color: red;
+}
+
+.sectionTitle {
+    text-align: center;
+    margin: 30px 0;
+}

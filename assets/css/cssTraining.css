@@ -42,22 +42,3 @@
     height: 200px;
     background-color: blue;
   }
-
-  a:link {
-    color: green;
-  }
-
-  a:visited {
-    color:red;
-  }
-
-  a:hover {
-    color: white;
-    background-color: green;
-  }
-  
-  a:active  {
-    color: white;
-    background-color: red;
-    border: 1px;
-  }

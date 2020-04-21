@@ -12,3 +12,38 @@ body {
     background-color: white;
     background-image: url("https://thebusybaker.ca/wp-content/uploads/2019/09/best-ever-from-scratch-chocolate-cupcakes-fb-ig-3.jpg")
 }
+
+a.tesla-link {
+    color: green;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 50px;
+  }
+
+a.testla-link:visited {
+    color:red;
+    text-decoration: underline;
+  }
+
+a.testla-link:hover {
+    color: white;
+    background-color: green;
+  }
+  
+a.testla-link:active  {
+    color: white;
+    background-color: red;
+    border: 1px;
+  }
+
+.customDescriptionSection {
+  margin-top: 30px;
+}
+
+.avatarCol {
+display: flex;
+}
+
+.projectCardBtn {
+  background-color: violet;
+}
