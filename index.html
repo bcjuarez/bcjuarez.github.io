@@ -5,27 +5,32 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Future Portfolio Page</title>
-    <link rel="stylesheet" href="assets/css/homePage" type="text/css" />
+    <link rel="stylesheet" href="assets/css/homePage" type="text/css"/>
+    <link rel="stylesheet" href="assets/css/defaultStyle.css" type="text/css" />
     <!-- Bootstrp Stylesheet -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <!-- FontAwesome -->
-    <script src=“https://kit.fontawesome.com/938a18ead6.js” crossorigin=“anonymous”></script>
+    <script src="https://kit.fontawesome.com/938a18ead6.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body id="topPage" data-spy="scroll" data-offset="0" data-target="topPage">
     <!-- BS Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded customNavBg">
-        <a class="navbar-brand" href="#">VCD 5D</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09"
+    <nav class="navbar navbar-expand-lg customNavBg">
+        <a class="navbar-brand" href="index.html">VCD 5D</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mycustomNav"
             aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon">
                 <i class="fas fa-bars"></i>
             </span>
+            </span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarsExample09">
+
+        <div class="collapse navbar-collapse" id="mycustomNav">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html">Home s</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="cssTraining.html">CSS training</a>
@@ -38,8 +43,8 @@
                         aria-haspopup="true" aria-expanded="false">Contact</a>
                     <div class="dropdown-menu" aria-labelledby="dropdown09">
                         <a class="dropdown-item" href="mailto: bcjuarez@cpp.edu">Email</a>
-                        <a class="dropdown-item" href="bcjuarez.github.io" target="_blank">Github</a>
-                        <a class="dropdown-item" href="#" target="_blank">Portfolio</a>
+                        <a class="dropdown-item" href="https://github.com/vcd5dcpp" target="_blank">Github</a>
+                        <a class="dropdown-item" href="https://bcjuarez.github.io" target="_blank">5D Website</a>
                     </div>
                 </li>
             </ul>
@@ -110,6 +115,9 @@
                 </div>
             </div>
         </div> 
+        <a class="btn" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+            Tooltip on top
+        </a>
     </div>
 
 
@@ -129,37 +137,86 @@
         <li>Portfolio:</li>
     </ul>
 
-<p class="pStyle">hello</p>
-<img src="assets/images/SCP-2521.png" width="200" heihgt="auto">
+    <p class="pStyle">hello</p>
+    <img src="assets/images/SCP-2521.png" width="200" heihgt="auto">
 
-<div id="firstbox" class="hover-state">
-    This is firstbox<a href="cssTraining.html" class="linkStyle">
-        <p>go to training page</p>
+    <div id="firstbox" class="hover-state">
+        This is firstbox<a href="cssTraining.html" class="linkStyle">
+            <p>go to training page</p>
+        </a>
+    </div>
+
+        <div class="row customToolTip">
+            <div class="col-12">
+                <a class="btn toTop" data-toggle="tooltip" data-placement="right">
+                    <span>
+                        <i class="fas fa-chevron-up"></i>
+                    </span>
+                </a>
+            </div>
+        </div>
+
+    <div id="secondbox">
+        This is secondbox
+        <a class="linkStyle" href="floatPositionActivity.html">
+            <p>go to float postion training</p>
+        </a>
+    </div>
+
+
+    <a class="tesla-link" target="_blank" href="http://www.tesla.com">Tesla website</a>
+
+    <a href="index.html">
+        <footer>
+            <p>This is a sticky footer</p>
+        </footer>
     </a>
-</div>
 
-<div id="secondbox">
-    This is secondbox
-    <a class="linkStyle" href="floatPositionActivity.html">
-        <p>go to float postion training</p>
-    </a>
-</div>
+    
 
 
-<a class="tesla-link" target="_blank" href="http://www.tesla.com">Tesla website</a>
 
-<a href="index.html">
-    <footer>
-        <p>This is a sticky footer</p>
-    </footer>
-</a>
+    <!-- Bootstrap Script -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+        </script>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+        </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
 
-<!-- Bootstrap Script -->
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-    </script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+            $("a.toTop").on('click', function (event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
     </script>
 
 </body>
