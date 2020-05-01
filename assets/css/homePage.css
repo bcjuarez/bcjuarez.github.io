@@ -64,6 +64,11 @@ display: flex;
   letter-spacing: 2px;
 }
 
+.customContainer {
+  display: flex;
+  justify-content: center;
+}
+
 @media only screen and (max with: 600px) {
   .sectionTitle > h2 {
     color: orange!important
