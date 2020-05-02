@@ -69,3 +69,24 @@ hr.first {
     color: #00CFC1;
     text-transform: uppercase;
 }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body {
+        color: lightgray;
+    }
+    .sectionTitle {
+        color: #8797AF;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body {
+        color: lightgrey;
+    }
+    .headlineTitle {
+        color: #00CFC1;
+    }
+    .sectionTitle {
+        color: #8797AF;
+}
