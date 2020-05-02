@@ -10,20 +10,20 @@ body {
     justify-content: center;
 }
 
-.education, .experience {
-    margin-top: 36px;
-}
-.bodySection {
+.topSector, .middleSector { 
     margin-left: 24px;
     margin-right: 24px;
+}
+
+.education, .personalSkills, .projects {
+    margin-top: 36px;
 }
 
 .avataImage {
     border-radius: 50%;
     width: 200px;
     height: 200px;
-    transform: translateY (~75px);
-    display: flex;
+    transform: translateY (-75px);
     justify-content: center;
 }
 
@@ -32,13 +32,25 @@ body {
     transform: translateY(-50px);
     text-transform: uppercase;
 }
+.headlineTitle span {
+    color: #8797AF;
+    font-weight: bold;
+}
 
-.bottomSection {
-    padding: 10px;
+hr {
+   border-color: #8797AF
+} 
+
+hr.first {
+    transform: translateY(-36px);
+}
+
+.education hr {
+    margin-right: 30px;
 }
 
 .sectionTitle {
-    color: orange;
+    color: #00CFC1;
     text-transform: uppercase;
 }
 
