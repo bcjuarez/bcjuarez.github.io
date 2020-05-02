@@ -31,6 +31,11 @@ body {
     margin-top: 36px;
 }
 
+.avatarContainer div {
+    display: flex;
+    justify-content: center;
+}
+
 .avatar {
     border-radius: 50% !important;
     width: 150px;
@@ -38,10 +43,7 @@ body {
     transform: translateY(-75px);
 }
 
-.avatarContainer div {
-    display: flex;
-    justify-content: center;
-}
+
 
 .headlineTitle {
     text-align: center;
