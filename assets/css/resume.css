@@ -32,13 +32,12 @@ body {
 }
 
 .avatar {
-    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
     border-radius: 50% !important;
-    width: 200px;
-    height: 200px;
+    width: 50px;
+    height: 50px;
     transform: translateY (-75px);
     justify-content: center;
 }
