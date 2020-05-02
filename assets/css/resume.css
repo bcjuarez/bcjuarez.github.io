@@ -19,7 +19,7 @@ body {
     margin-top: 36px;
 }
 
-.avataImage {
+.avatar {
     border-radius: 50%;
     width: 200px;
     height: 200px;
@@ -52,44 +52,4 @@ hr.first {
 .sectionTitle {
     color: #00CFC1;
     text-transform: uppercase;
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    ...
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    ...
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
-    .experience p.desciption {
-        display: none;
-    }
-
-    .experience hr {
-        margin-right: 0;
-    }
-
-    .education .subSectionBox {
-        margin-right: 0;
-    }
-
-    .expereince .jobTitle {
-        float: right;
-    }
-}
-
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    ...
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    ...
 }
