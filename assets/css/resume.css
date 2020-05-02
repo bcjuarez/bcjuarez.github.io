@@ -5,21 +5,20 @@ body {
 .column {
     float: left;
     width: 50%;
-  }
+}
   
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
+/* Clear floats after the columns */
+.row:after {
+    content: ;
     display: table;
     clear: both;
-  }
+}
 
 .resumeContainer {
     background-color: white;
     margin-top: 100px;
     margin-bottom: 100px;
-    display: flex;
-    justify-content: center;
+    padding: 0 20px 30px 20px;
 }
 
 .topSector, .middleSector { 
@@ -43,13 +42,12 @@ body {
     transform: translateY(-75px);
 }
 
-
-
 .headlineTitle {
     text-align: center;
     transform: translateY(-50px);
     text-transform: uppercase;
 }
+
 .headlineTitle span {
     color: #8797AF;
     font-weight: bold;
