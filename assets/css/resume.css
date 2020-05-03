@@ -30,6 +30,13 @@ body {
     margin-top: 36px;
 }
 
+.designSkills {
+    background-color: #266DD3;
+    padding: 12px 4px;
+    border-radius: 12px;
+    text-align: center;
+}
+
 .avatarContainer div {
     display: flex;
     justify-content: center;
