@@ -9,9 +9,12 @@ body {
 
 /* Clear floats after the columns */
 .row:after {
-    content: ;
     display: table;
     clear: both;
+}
+
+.subSectionBox div.row {
+    align-items: center;
 }
 
 .resumeContainer {
