@@ -2,8 +2,8 @@ body {
     background-color: lightgray !important;
 }
 
-.subSectionBox {
-    align-items: center;
+.subSectionBox p {
+    justify-content: center;
 }
 
 .resumeContainer {
