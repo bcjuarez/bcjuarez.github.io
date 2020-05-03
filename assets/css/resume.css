@@ -2,8 +2,7 @@ body {
     background-color: lightgray !important;
 }
 
-.column {
-    float: left;
+.col {
     width: 50%;
 }
 
