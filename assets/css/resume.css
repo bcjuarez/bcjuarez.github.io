@@ -2,7 +2,7 @@ body {
     background-color: lightgray !important;
 }
 
-.subSectionBox div.row {
+.subSectionBox {
     align-items: center;
 }
 
