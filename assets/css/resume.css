@@ -30,13 +30,6 @@ body {
     margin-right: 24px;
 }
 
-.education,
-.personalSkills,
-.projects,
-.codingskills {
-    margin-top: 36px;
-}
-
 .avatarContainer div {
     display: flex;
     justify-content: center;
