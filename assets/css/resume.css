@@ -27,8 +27,10 @@ body {
   }
   
 
-.subSectionBox p {
+.subSectionBox p div {
     align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .resumeContainer {
