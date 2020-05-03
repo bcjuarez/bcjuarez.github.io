@@ -2,16 +2,6 @@ body {
     background-color: lightgray !important;
 }
 
-.col {
-    width: 50%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-    display: table;
-    clear: both;
-}
-
 .subSectionBox div.row {
     align-items: center;
 }
