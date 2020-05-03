@@ -3,7 +3,7 @@ body {
 }
 
 .subSectionBox p {
-    justify-content: center;
+    align-items: center;
 }
 
 .resumeContainer {
@@ -48,10 +48,6 @@ hr {
 
 hr.first {
     transform: translateY(-36px);
-}
-
-.education hr {
-    margin-right: 30px;
 }
 
 .sectionTitle {
