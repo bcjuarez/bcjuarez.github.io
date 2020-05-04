@@ -38,7 +38,7 @@ body {
 
 .resumeContainer {
     background-color: white;
-]    margin-bottom: 100px;
+    margin-bottom: 100px;
     padding: 0 20px 30px 20px;
 }
 
@@ -57,7 +57,7 @@ body {
     border-radius: 50% !important;
     width: 150px;
     height: 150px;
-    transform: translateY(70px);
+    transform: translateY(50px);
 }
 
 .headlineTitle {
