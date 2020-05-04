@@ -38,6 +38,7 @@ body {
 
 .resumeContainer {
     background-color: white;
+    margin-top: 100px
     margin-bottom: 100px;
     padding: 0 20px 30px 20px;
 }
@@ -57,12 +58,12 @@ body {
     border-radius: 50% !important;
     width: 150px;
     height: 150px;
-    transform: translateY(25px);
+    transform: translateY(20px);
 }
 
 .headlineTitle {
     text-align: center;
-    transform: translateY(-30px);
+    transform: translateY(-50px);
     text-transform: uppercase;
 }
 
