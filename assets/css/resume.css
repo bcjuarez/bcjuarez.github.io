@@ -57,12 +57,12 @@ body {
     border-radius: 50% !important;
     width: 150px;
     height: 150px;
-    transform: translateY(50px);
+    transform: translateY(25px);
 }
 
 .headlineTitle {
     text-align: center;
-    transform: translateY(-50px);
+    transform: translateY(-30px);
     text-transform: uppercase;
 }
 
