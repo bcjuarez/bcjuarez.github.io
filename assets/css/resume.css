@@ -63,7 +63,7 @@ body {
 
 .headlineTitle {
     text-align: center;
-    transform: translateY(-50px);
+    transform: translateY(35px);
     text-transform: uppercase;
 }
 
