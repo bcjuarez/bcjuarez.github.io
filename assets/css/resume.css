@@ -58,7 +58,7 @@ body {
     border-radius: 50% !important;
     width: 150px;
     height: 150px;
-    transform: translateY(-100px);
+    transform: translateY(100px);
 }
 
 .headlineTitle {
@@ -68,7 +68,6 @@ body {
 }
 
 .headlineTitle span {
-    color: #8797AF;
     font-weight: bold;
 }
 
