@@ -50,12 +50,6 @@ body {
     width: 80%;
 }
 
-.cardImages {
-    height: 200px;
-    width: 25%;
-    margin: auto
-}
-
 .subSectionBox div {
     align-items: center;
     justify-content: center;
@@ -66,6 +60,7 @@ body {
     margin-right: 10px;
     margin-left: 10px;
     width: 25%;
+    height: 200px;
 }
 
 hr {
