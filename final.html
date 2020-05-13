@@ -299,27 +299,6 @@
             });
         });
     </script>
-    <script>
-    // multi items carousel auto slide timer
-    $('#muliCarousel.carousel').carousel({
-        interval: 5000
-    })
-    // multi items carousel slide one at a time
-    $('#muliCarousel .carousel-item').each(function () {
-        var next = $(this).next();
-        if (!next.length) {
-            next = $(this).siblings(':first');
-        }
-        next.children(':first-child').clone().appendTo($(this));
-        for (var i = 0; i < 3; i++) {
-            next = next.next();
-            if (!next.length) {
-                next = $(this).siblings(':first');
-            }
-            next.children(':first-child').clone().appendTo($(this));
-        }
-    });
-</script>   
 </body>
 
 </html>
