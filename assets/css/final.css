@@ -26,7 +26,7 @@ body {
   }
 
 .topSector,
-.middleSector {
+.middleSector, .secondMiddleSection {
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -36,6 +36,21 @@ body {
     justify-content: center;
     margin-top: auto;
     margin-bottom: auto;
+}
+
+.cardImages {
+    height: 100px;
+}
+
+.subSectionBox div {
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.card div  {
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 hr {
