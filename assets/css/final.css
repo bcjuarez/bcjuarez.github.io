@@ -51,8 +51,8 @@ body {
 }
 
 .cardImages {
-    height: 100px;
-    width: auto;
+    height: 200px;
+    width: 25%;
     margin: auto
 }
 
@@ -70,10 +70,6 @@ body {
 
 hr {
     border-color: #8797AF
-}
-
-hr.first {
-    transform: translateY(-36px);
 }
 
 .headlineTitle .sectionHeader {
