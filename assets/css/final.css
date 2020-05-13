@@ -92,12 +92,6 @@ img {
     margin: auto;
 }
 
-.logo {
-    margin: auto;
-    width: 200px;
-    transform: translateY(80px);
-}
-
 .text {
     font-family: 'Courier New', Courier, monospace
 }
