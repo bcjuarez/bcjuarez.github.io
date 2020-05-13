@@ -38,11 +38,19 @@ body {
     margin-bottom: auto;
 }
 
-.center {
+.headlineTitle .sectionHeader {
+    justify-content: center;
+}
+
+img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+  }
+
+.center {
+    text-align: center;
 }
 
 .logo {
