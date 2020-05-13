@@ -1,3 +1,31 @@
+body {
+    background-color: lightgray !important;
+}
+
+.row {
+    margin: 0 -5px;
+}
+
+.row:after {
+    clear: both;
+}
+
+.topSector,
+.middleSector {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.logoContainer div {
+    display: 20px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
 /* ==== carousel multi items slider ===== */
 #muliCarousel {
     margin: 20px 0;
