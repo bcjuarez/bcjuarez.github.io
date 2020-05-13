@@ -2,6 +2,13 @@ body {
     background-color: lightgray !important;
 }
 
+.section {
+    background-color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 0 20px 30px 20px;
+}
+
 .col {
     float: center;
     width: 25%;
@@ -36,6 +43,11 @@ body {
     justify-content: center;
     margin-top: auto;
     margin-bottom: auto;
+    width: 40%;
+}
+
+.styleGuide, .siteMap {
+    width: 80%;
 }
 
 .cardImages {
@@ -53,6 +65,7 @@ body {
 .card div  {
     margin-right: 10px;
     margin-left: 10px;
+    width: 25%;
 }
 
 hr {
@@ -70,7 +83,6 @@ hr.first {
 }
 
 img {
-    display: block;
     margin-left: auto;
     margin-right: auto;
   }
