@@ -51,10 +51,11 @@ img {
 
 .center {
     text-align: center;
+    margin: auto;
 }
 
 .logo {
     border: 50% !important;
-    width: 300px;
+    width: 40%;
     transform: translateY(80px);
 }
