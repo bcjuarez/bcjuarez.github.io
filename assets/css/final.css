@@ -39,7 +39,9 @@ body {
 }
 
 .cardImages {
-    height: 100px;
+    height: auto;
+    width: auto;
+    margin: auto
 }
 
 .subSectionBox div {
