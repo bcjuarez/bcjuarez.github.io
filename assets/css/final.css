@@ -2,15 +2,29 @@ body {
     background-color: lightgray !important;
 }
 
-.row {
-    margin: 0 -5px;
+.col {
+    float: center;
+    width: 25%;
     padding: 0 10px;
 }
 
+.row {
+    margin: 0 -5px;
+}
+
 .row:after {
+    display: table;
     clear: both;
 }
 
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
 .topSector,
 .middleSector {
     margin-left: 20px;
@@ -18,9 +32,14 @@ body {
 }
 
 .logoContainer div {
-    display: 20px;
-    margin-right: 20px;
-    float: center;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    border: 50% !important;
+    width: 300px;
+    transform: translateY(20px);
 }
 
 
