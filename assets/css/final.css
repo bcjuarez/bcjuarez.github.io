@@ -63,6 +63,12 @@ body {
     height: 100px;
 }
 
+.cardImages {
+    height: 100px;
+    width: auto;
+    margin: auto
+}
+
 hr {
     border-color: #8797AF
 }
