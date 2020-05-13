@@ -34,6 +34,8 @@ body {
 .logoContainer div {
     display: flex;
     justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .center {
@@ -44,8 +46,6 @@ body {
 }
 
 .logo {
-    margin-top: auto;
-    margin-bottom: auto;
     border: 50% !important;
     width: 300px;
     transform: translateY(80px);
