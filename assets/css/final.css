@@ -60,7 +60,7 @@ body {
     margin-right: 10px;
     margin-left: 10px;
     width: 25%;
-    height: 200px;
+    height: auto;
 }
 
 hr {
