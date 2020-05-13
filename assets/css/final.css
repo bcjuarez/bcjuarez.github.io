@@ -4,6 +4,7 @@ body {
 
 .row {
     margin: 0 -5px;
+    padding: 0 10px;
 }
 
 .row:after {
@@ -19,6 +20,7 @@ body {
 .logoContainer div {
     display: 20px;
     margin-right: 20px;
+    float: center;
 }
 
 
