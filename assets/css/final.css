@@ -38,8 +38,18 @@ body {
     margin-bottom: auto;
 }
 
+hr {
+    border-color: #8797AF
+}
+
+hr.first {
+    transform: translateY(-36px);
+}
+
 .headlineTitle .sectionHeader {
     justify-content: center;
+    color: #00CFC1;
+    text-transform: uppercase;
 }
 
 img {
@@ -55,7 +65,7 @@ img {
 }
 
 .logo {
-    border: 50% !important;
-    width: 40%;
+    margin: auto;
+    width: 200px;
     transform: translateY(80px);
 }
