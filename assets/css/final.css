@@ -26,7 +26,7 @@ body {
   }
 
 .topSector,
-.middleSector, .secondMiddleSection {
+.middleSector, .secondMiddleSection, .bottom {
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -39,7 +39,7 @@ body {
 }
 
 .cardImages {
-    height: auto;
+    height: 100px;
     width: auto;
     margin: auto
 }
@@ -73,7 +73,6 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
   }
 
 .center {
@@ -85,4 +84,8 @@ img {
     margin: auto;
     width: 200px;
     transform: translateY(80px);
+}
+
+.text {
+    font-family: 'Courier New', Courier, monospace
 }
